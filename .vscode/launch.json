@@ -1,6 +1,14 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
+    {
+      "type": "java",
+      "name": "hello",
+      "request": "launch",
+      "mainClass": "java.hello",
+      "projectName": "programing_Language_4a3f6f12"
+    },
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
