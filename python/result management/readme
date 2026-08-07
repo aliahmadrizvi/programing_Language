@@ -1,0 +1,23 @@
+The Result Management System is a role-based command-line interface (CLI) application designed to facilitate the management of academic records in an educational setting. At its core, the system supports three types of users: students, teachers, and administrators, each with distinct permissions and capabilities tailored to their roles.
+
+Authentication and User Management
+The system incorporates a robust authentication module that handles user registration and login. When a new user registers, they must specify their role, which determines the features they can access. The authentication service interacts with the underlying database to securely store user credentials and verify them during login, preventing unauthorized access.
+
+Role-Specific Features
+Once logged in, users are presented with menus and options specific to their roles:
+
+Students can view their profiles and check their academic results. Their profiles include personal information such as full name, roll number, and class details, which are created during the registration process.
+
+Teachers have the ability to enter new results for students, specifying details such as subject, marks, and semester. They can also view all recorded results, enabling them to track student performance comprehensively.
+
+Administrators oversee system-wide management tasks, including user and student profile management. They can view lists of all users and students and have the authority to delete accounts or profiles, ensuring data integrity and administrative control.
+
+Data Handling and Persistence
+The system relies on a database abstraction to store and retrieve data related to users, students, and results. This separation promotes modularity and makes it easier to adapt the system to different storage backends. For example, student profiles and results are linked through unique identifiers, enabling efficient queries such as fetching all results for a specific student.
+
+User Interaction and Workflow
+The application employs a clear, menu-driven interface to guide users through their available options. Input validation and feedback messages ensure that users are informed of the success or failure of their actions, such as registration errors, invalid input, or successful data updates. Logging out and exiting the system are also handled gracefully.
+
+Extensibility and Maintainability
+The project’s structure, with separate classes for database operations, authentication, models, and the main system logic, supports scalability and easier maintenance. Adding new features, such as report generation or more detailed role permissions, can be done with minimal disruption to existing code.
+
