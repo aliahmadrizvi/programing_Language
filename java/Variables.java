@@ -3,6 +3,7 @@ public class Variables {
         int age = 19;
         double cpga = 9.05;
         char grade = 'A';
+        float priceChocolate = 12.80F;
         boolean IsStudent = true;
         String name = "Ali";
 
@@ -11,6 +12,7 @@ public class Variables {
         System.out.println("CPGA : " + cpga);
         System.out.println("Grade : " + grade);
         System.out.println("Student : " + IsStudent);
+        System.out.println("Price : " + priceChocolate);
 
     }
 
