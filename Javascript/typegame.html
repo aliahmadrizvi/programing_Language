@@ -36,7 +36,14 @@
         let main = document.querySelector("#main");
         let h1 = document.querySelector("h1");
         window.addEventListener("keyup",function(dets){
-            h1.textContent = `${dets.key}`;
+            if(dets.key===" "){
+               h1.textContent =   "space";     
+
+            }
+            else{
+
+              h1.textContent = `${dets.key}`;
+            }
         })
     </script>
   </body>

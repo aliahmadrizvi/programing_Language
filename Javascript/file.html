@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        background-color: #222;
+      }
+      .main{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      input{
+        display: none;
+      }
+      .folder{
+        
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        height: 30px;
+        text-align: center;
+        background-color: rgb(6, 66, 80);
+
+        padding: 10px 19px;
+        color: aliceblue;
+        text-transform: capitalize;
+        border-radius: 10px;
+
+      }
+      .folder:hover{
+        background-color: rgb(10, 47, 47);
+        
+      }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <input type="file">
+        <div class="folder">
+            choose your file
+        </div>
+    </div>
+    <script>
+        let folder = document.querySelector(".folder");
+        let inp = document.querySelector("input");
+        folder.addEventListener("click",function(){
+            inp.click();
+        });
+        inp.addEventListener("change",function(dets){
+            folder.textContent = dets.target.files[0].name;
+
+        })
+
+
+    </script>
+    
+</body>
+</html>
