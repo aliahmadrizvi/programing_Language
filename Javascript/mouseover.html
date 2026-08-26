@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            overflow: hidden;
+            height: 1280px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background-color: red;
+            border-radius: 30%;
+            transition: all 0.3s ease; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+    </div>
+
+    </div>
+    
+    <script>
+        let box = document.querySelector('.box');
+        window.addEventListener("mousemove",function(val){
+            box.style.top = val.clientY+"px";
+            box.style.left=val.clientX+"px"
+
+        })
+        box.addEventListener('mouseover',function(){
+            
+            box.style.backgroundColor = "yellow";
+        });
+         box.addEventListener('mouseout',function(){
+           box.style.backgroundColor = "red";
+       });
+    </script>
+    
+</body>
+</html>
