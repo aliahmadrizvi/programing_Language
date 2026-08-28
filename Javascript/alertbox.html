@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+    font-family: Arial, sans-serif;
+}
+
+.alert {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+
+    width: 350px;
+    padding: 18px 20px;
+
+    background-color: #fff;
+    color: #222;
+
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    animation: slideIn 0.4s ease;
+}
+
+.close {
+    border: none;
+    background: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(120%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="alert">
+    <span>Download completed successfully!</span>
+    <button class="close">&times;</button>
+</div>
+<script>
+    let alertBox = document.querySelector(".alert");
+
+setTimeout(function () {
+    alertBox.remove();
+}, 5000);
+</script>
+    
+</body>
+</html>

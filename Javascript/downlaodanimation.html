@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>download animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            background-color: #222;
+        }
+        .container{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .box {
+            display: flex;
+            flex-direction: column;
+            
+            align-items: center;
+    width: 350px;
+    height: 150px;
+    background-color: rgb(97, 166, 227);
+    border: 2px solid #a59b9b;
+    border-radius: 2rem;
+    box-shadow: -1px 5px 20px 3px rgba(251, 251, 251, 0.946);
+}
+        h2{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 1rem;
+            
+        }
+        .downloadbox{
+            margin-top: 0.76rem;
+            background-color: aliceblue;
+             width: 250px;
+             border-radius: 2rem;
+            height: 20px;
+
+        }
+        .download{
+            width: 0%;
+            height: 100%;
+            background-color: #222;
+            border-radius: 2rem;
+        }
+        .btn{
+            margin: 0.7rem auto ;
+            width: 40%;
+            padding: 3px;
+            border-radius: 2rem;
+            border: none;
+            outline:none;
+            transition: all 0.3s ease;
+            
+        }
+        .btn:hover{
+            background-color: #b9b9b9;
+        }
+        .btn:focus{
+            border:2px #222 solid;
+ 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Download Item</h2>
+            <div class="downloadbox">
+                <div class="download"></div
+                    >
+            </div>
+            <button class="btn">Downlaod Now</button>
+        </div>
+    </div>
+    <script>
+        let download = document.querySelector(".download");
+        let btn = document.querySelector(".btn");
+        let second = 5;
+         let count = 0;
+
+        btn.addEventListener("click",function(dets){
+            let itl=setInterval(function(){
+                btn.textContent="downloading";
+               
+                if(count<=100){
+                    console.log(count);
+                    document.querySelector('h2').textContent=`${count}%`;
+                    download.style.width = `${count}%`;
+
+                    count++;
+
+                }
+                else{
+                    document.querySelector('h2').textContent="Downloaded";
+                    btn.textContent="done";
+                    clearInterval(itl);
+                }
+
+            },(second*1000)/100);
+            
+            
+        })
+
+    </script>
+    
+</body>
+</html>
