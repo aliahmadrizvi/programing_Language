@@ -5,19 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toggle Theme</title>
    <style>
-        * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-body {
-    background: #222;
-    font-family: Arial, sans-serif;
-}
+    body{
+        width: 100%;
+        height: 100vh;
+        
+        font-family: Arial, sans-serif;
+    }
+    .darkTheme{
+        background: #222;
+        
+        
+
+    }
+    .whiteTheme{
+        background: whitesmoke;
+        
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+
+        transition: all 1.3s ease;
+        height: 100%;
+        width: 100%;
+    }
+    .btn{
+
+        font-size: 2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 20rem;
+        padding: 2rem 8rem;
+    }
 </style>
 </head>
 <body>
+    <div id="ctr" class="container">
+        <button class="btn" id="toggleBtn">
+            Change Theme
+        </button>
+
+    </div>
+    <script>
+        let toggleBtn = document.querySelector("#toggleBtn");
+        let container = document.querySelector("#ctr");
+        let savedTheme = localStorage.getItem("theme");
+        if(savedTheme === "dark"){
+            container.classList.add("darkTheme");
+
+        }
+        else{
+            container.classList.add("whiteTheme");
+        }
+
+         toggleBtn.addEventListener("click",function(dets){
+            if(container.classList.contains("whiteTheme")){
+                container.classList.remove("whiteTheme");
+                container.classList.add("darkTheme");
+                localStorage.setItem("theme","dark");
+            }
+            else{
+                 container.classList.remove("darkTheme");
+                container.classList.add("whiteTheme");
+                localStorage.setItem("theme","white");
+
+
+            }
+            
+        });
+    </script>
     
 </body>
-</html>
+</html>/
