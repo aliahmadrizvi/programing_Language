@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Bank.Main",
+      "projectName": "programing_Language_fa986b34"
+    },
+    {
+      "type": "java",
       "name": "Array",
       "request": "launch",
       "mainClass": "Array",
