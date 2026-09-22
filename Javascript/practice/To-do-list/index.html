@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>To-Do List | AAR</title>
+</head>
+
+<body>
+
+    <div id="container" class="container">
+
+        <h2 id="todoTitle">
+            To-Do List!
+        </h2>
+
+        <div id="todo" class="todo">
+
+            <!-- Search -->
+            <div id="search" class="search">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Enter your task..."
+                >
+
+                <input
+                    type="button"
+                    value="Add"
+                    id="addBtn"
+                    class="btn"
+                >
+
+            </div>
+
+
+            <!-- Task Container -->
+            <div id="taskContainer" class="taskContainer">
+
+
+                <!-- Pending Tasks -->
+                <div id="taskLeft" class="taskLeft">
+
+                    <h3 id="pendingTitle" class="taskText">
+                        Pending Tasks :(
+                    </h3>
+
+                    
+
+                </div>
+
+
+                <!-- Completed Tasks -->
+                <div id="taskRight" class="taskRight">
+
+                    <h3 id="completedTitle" class="taskText">
+                        Completed Tasks :)
+                    </h3>
+
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
