@@ -5,6 +5,20 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "Main",
+      "projectName": "programing_Language_fa986b34"
+    },
+    {
+      "type": "java",
+      "name": "Hello",
+      "request": "launch",
+      "mainClass": "Winter_Arc.Hello",
+      "projectName": "programing_Language_fa986b34"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "Bank.Main",
       "projectName": "programing_Language_fa986b34"
     },
