@@ -18,21 +18,22 @@ public class QuizGame {
         int score = 0 ;
         int guess;
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("=====================");
-        System.out.println("Welcome to Quiz Game");
-        System.out.println("=====================");
-        for(int i = 0;i < questions.length;i++){
-            System.out.println(questions[i]);
-           for(String option : answer[i]){
-               System.out.println(option);
-           }
-            System.out.print("Enter the guess: ");
-           guess = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("=====================");
+            System.out.println("Welcome to Quiz Game");
+            System.out.println("=====================");
+            for(int i = 0;i < questions.length;i++){
+                System.out.println(questions[i]);
+               for(String option : answer[i]){
+                   System.out.println(option);
+               }
+                System.out.print("Enter the guess: ");
+               guess = sc.nextInt();
 
-           if(guess == correctAnswer[i]){
-               score++;
-           }
+               if(guess == correctAnswer[i]){
+                   score++;
+               }
+            }
         }
         System.out.printf("You got %d of 3",score);
     }
