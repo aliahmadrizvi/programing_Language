@@ -1,0 +1,161 @@
+Name,Real_Name,Team,Alignment,Power_Level,Intelligence,Strength,Speed,First_Appearance,Origin,Status
+Iron Man,Tony Stark,Avengers,Hero,92,100,85,80,1963,Earth,Alive
+Captain America,Steve Rogers,Avengers,Hero,88,90,90,85,1941,Earth,Alive
+Thor,Thor Odinson,Avengers,Hero,98,90,100,95,1962,Asgard,Alive
+Hulk,Bruce Banner,Avengers,Hero,99,95,100,70,1962,Earth,Alive
+Black Widow,Natasha Romanoff,Avengers,Hero,78,85,65,90,1964,Earth,Deceased
+Hawkeye,Clint Barton,Avengers,Hero,75,80,60,85,1964,Earth,Alive
+Spider-Man,Peter Parker,Avengers,Hero,90,92,85,95,1962,Earth,Alive
+Doctor Strange,Stephen Strange,Avengers,Hero,96,98,70,80,1963,Earth,Alive
+Scarlet Witch,Wanda Maximoff,Avengers,Hero,99,95,85,90,1964,Earth,Alive
+Vision,Vision,Avengers,Hero,95,100,90,90,1968,Android,Deceased
+Black Panther,T'Challa,Wakanda,Hero,90,95,85,90,1966,Wakanda,Deceased
+Captain Marvel,Carol Danvers,Avengers,Hero,98,90,95,100,1968,Earth,Alive
+Ant-Man,Scott Lang,Avengers,Hero,82,80,75,70,1979,Earth,Alive
+Wasp,Hope van Dyne,Avengers,Hero,82,85,70,90,1963,Earth,Alive
+Falcon,Sam Wilson,Avengers,Hero,80,82,70,88,1969,Earth,Alive
+Winter Soldier,Bucky Barnes,Avengers,Hero,84,80,85,85,1941,Earth,Alive
+War Machine,James Rhodes,Avengers,Hero,86,90,85,75,1979,Earth,Alive
+Shang-Chi,Shang-Chi,Avengers,Hero,91,88,90,95,1973,Earth,Alive
+Star-Lord,Peter Quill,Guardians,Hero,80,85,70,80,1976,Earth,Alive
+Gamora,Gamora,Guardians,Hero,87,82,88,92,1975,Zen-Whoberi,Deceased
+Drax,Drax the Destroyer,Guardians,Hero,88,60,98,70,1973,Earth,Alive
+Rocket,Rocket Raccoon,Guardians,Hero,86,98,55,80,1976,Halfworld,Alive
+Groot,Groot,Guardians,Hero,89,65,100,60,1960,Planet X,Alive
+Mantis,Mantis,Guardians,Hero,82,80,65,75,1973,Unknown,Alive
+Nebula,Nebula,Guardians,Hero,84,88,80,85,1985,Luphomoid,Alive
+Yondu,Yondu Udonta,Guardians,Hero,83,82,75,80,1969,Centauri-IV,Deceased
+Adam Warlock,Adam Warlock,Guardians,Hero,97,92,98,98,1967,Earth,Alive
+Cosmo,Cosmo,Guardians,Hero,75,70,65,80,1966,Earth,Alive
+Nova,Richard Rider,Nova Corps,Hero,93,88,92,98,1976,Earth,Alive
+Quasar,Wendell Vaughn,Avengers,Hero,91,90,85,95,1978,Earth,Alive
+Daredevil,Matt Murdock,Defenders,Hero,82,92,75,88,1964,Earth,Alive
+Punisher,Frank Castle,Anti-Hero,Anti-Hero,78,85,82,80,1974,Earth,Alive
+Jessica Jones,Jessica Jones,Defenders,Hero,80,85,88,75,2001,Earth,Alive
+Luke Cage,Luke Cage,Defenders,Hero,84,75,98,65,1972,Earth,Alive
+Iron Fist,Danny Rand,Defenders,Hero,83,82,80,95,1974,Earth,Alive
+Elektra,Elektra Natchios,Defenders,Anti-Hero,80,88,72,92,1981,Earth,Alive
+Moon Knight,Marc Spector,Midnight Sons,Anti-Hero,84,82,85,88,1975,Earth,Alive
+Blade,Eric Brooks,Midnight Sons,Hero,88,85,90,92,1973,Vampire-Human,Alive
+Ghost Rider,Johnny Blaze,Midnight Sons,Anti-Hero,94,80,98,90,1972,Earth,Alive
+Cloak,Tyrone Johnson,Midnight Sons,Hero,86,82,75,88,1982,Earth,Alive
+Wolverine,Logan,X-Men,Hero,94,85,97,90,1974,Mutant,Alive
+Professor X,Charles Xavier,X-Men,Hero,95,100,60,65,1963,Mutant,Alive
+Magneto,Erik Lehnsherr,X-Men,Anti-Hero,96,98,90,85,1963,Mutant,Alive
+Cyclops,Scott Summers,X-Men,Hero,87,88,80,82,1963,Mutant,Alive
+Jean Grey,Jean Grey,X-Men,Hero,99,98,85,90,1963,Mutant,Alive
+Storm,Ororo Munroe,X-Men,Hero,93,90,82,95,1975,Mutant,Alive
+Beast,Hank McCoy,X-Men,Hero,88,100,85,80,1963,Mutant,Alive
+Rogue,Anna Marie,X-Men,Hero,89,82,90,88,1981,Mutant,Alive
+Gambit,Remy LeBeau,X-Men,Hero,86,88,78,90,1990,Mutant,Alive
+Nightcrawler,Kurt Wagner,X-Men,Hero,85,82,70,100,1975,Mutant,Alive
+Mystique,Raven Darkholme,X-Men,Villain,82,92,70,90,1978,Mutant,Alive
+Sabretooth,Victor Creed,X-Men,Villain,86,75,96,85,1977,Mutant,Alive
+Deadpool,Wade Wilson,X-Force,Anti-Hero,90,82,88,95,1991,Mutant,Alive
+Colossus,Piotr Rasputin,X-Men,Hero,91,75,100,65,1975,Mutant,Alive
+Iceman,Bobby Drake,X-Men,Hero,91,90,85,88,1963,Mutant,Alive
+Kitty Pryde,Katherine Pryde,X-Men,Hero,82,88,65,85,1980,Mutant,Alive
+Emma Frost,Emma Frost,X-Men,Hero,91,98,75,80,1980,Mutant,Alive
+Psylocke,Betsy Braddock,X-Men,Hero,88,90,80,92,1986,Mutant,Alive
+Bishop,Lucas Bishop,X-Men,Hero,86,85,88,82,1991,Mutant,Alive
+Jubilee,Jubilation Lee,X-Men,Hero,76,80,65,85,1989,Mutant,Alive
+Thanos,Thanos,Black Order,Villain,100,100,100,95,1973,Titan,Deceased
+Loki,Loki Laufeyson,Asgard,Anti-Hero,94,98,85,90,1962,Asgard,Alive
+Ultron,Ultron,Avengers,Villain,96,100,95,90,1968,AI,Deceased
+Doctor Doom,Victor von Doom,Latveria,Villain,98,100,98,88,1962,Latveria,Alive
+Galactus,Galactus,Cosmic,Villain,100,100,100,100,1966,Taa,Alive
+Kang,Nathaniel Richards,Chronopolis,Villain,97,100,85,90,1964,Earth,Alive
+Green Goblin,Norman Osborn,Spider-Man,Villain,86,95,85,90,1964,Earth,Alive
+Doctor Octopus,Otto Octavius,Spider-Man,Villain,83,98,75,80,1963,Earth,Alive
+Venom,Eddie Brock,Spider-Man,Anti-Hero,91,85,95,92,1988,Symbiote,Alive
+Carnage,Cletus Kasady,Spider-Man,Villain,93,75,95,95,1992,Symbiote,Alive
+Kingpin,Wilson Fisk,Spider-Man,Villain,79,90,90,55,1967,Earth,Alive
+Mysterio,Quentin Beck,Spider-Man,Villain,82,94,65,70,1964,Earth,Alive
+Vulture,Adrian Toomes,Spider-Man,Villain,78,88,72,85,1964,Earth,Alive
+Sandman,Flint Marko,Spider-Man,Villain,88,70,98,60,1963,Earth,Alive
+Electro,Max Dillon,Spider-Man,Villain,87,82,75,100,1964,Earth,Alive
+Rhino,Aleksei Sytsevich,Spider-Man,Villain,80,55,100,65,1964,Earth,Alive
+Lizard,Curt Connors,Spider-Man,Villain,84,96,92,85,1963,Earth,Alive
+Kraven,Sergei Kravinoff,Spider-Man,Villain,83,82,90,88,1964,Earth,Alive
+Scorpion,Mac Gargan,Spider-Man,Villain,79,70,88,78,1964,Earth,Alive
+King Cobra,Klaus Voorhees,Serpent Society,Villain,72,75,70,85,1976,Earth,Alive
+Red Skull,Johann Schmidt,Hydra,Villain,86,95,82,75,1941,Earth,Alive
+Baron Zemo,Helmut Zemo,Masters of Evil,Villain,84,96,70,75,1973,Earth,Alive
+Taskmaster,Tony Masters,Villain,Villain,88,92,85,95,1980,Earth,Alive
+Abomination,Emil Blonsky,Villain,Villain,91,70,100,72,1967,Earth,Alive
+Whiplash,Anton Vanko,Villain,Villain,76,90,72,70,1968,Earth,Deceased
+Justin Hammer,Justin Hammer,Villain,Villain,68,88,55,50,1981,Earth,Alive
+Malekith,Malekith,Dark Elves,Villain,91,90,92,88,1984,Svartalfheim,Deceased
+Hela,Hela,Asgard,Villain,98,92,100,95,1964,Asgard,Deceased
+Surtur,Surtur,Muspelheim,Villain,99,80,100,85,1963,Muspelheim,Deceased
+Ego,Ego,Guardians,Villain,97,100,100,90,1966,Celestial,Deceased
+M'Baku,M'Baku,Wakanda,Hero,78,75,92,70,1969,Wakanda,Alive
+Okoye,Okoye,Wakanda,Hero,80,82,78,88,2016,Wakanda,Alive
+Shuri,Shuri,Wakanda,Hero,87,100,65,82,2005,Wakanda,Alive
+Nakia,Nakia,Wakanda,Hero,78,85,72,88,1998,Wakanda,Alive
+Ramonda,Ramonda,Wakanda,Hero,65,80,55,50,1980,Wakanda,Deceased
+Everett Ross,Everett Ross,Wakanda,Hero,62,82,55,60,2001,Earth,Alive
+Namor,Namor McKenzie,Atlanteans,Anti-Hero,96,92,98,98,1939,Atlantis,Alive
+Attuma,Attuma,Atlantis,Villain,82,70,95,78,1963,Atlantis,Alive
+Makkari,Makkari,Eternals,Hero,94,85,75,100,1976,Eternals,Alive
+Sersi,Sersi,Eternals,Hero,93,95,82,88,1976,Eternals,Alive
+Ikaris,Ikaris,Eternals,Hero,94,88,95,98,1976,Eternals,Deceased
+Thena,Thena,Eternals,Hero,92,90,92,94,1976,Eternals,Alive
+Gilgamesh,Gilgamesh,Eternals,Hero,90,75,98,82,1976,Eternals,Deceased
+Kingo,Kingo,Eternals,Hero,85,82,75,90,1976,Eternals,Alive
+Druig,Druig,Eternals,Anti-Hero,89,92,72,80,1976,Eternals,Alive
+Ajak,Ajak,Eternals,Hero,88,95,70,75,1976,Eternals,Deceased
+Sprite,Sprite,Eternals,Hero,80,90,60,78,1976,Eternals,Alive
+Phastos,Phastos,Eternals,Hero,87,100,65,75,1976,Eternals,Alive
+G'iah,G'iah,Secret Invasion,Hero,89,88,85,90,2020,Skrull,Alive
+Talos,Talos,Secret Invasion,Hero,78,82,75,78,1994,Skrull,Deceased
+Ms. Marvel,Kamala Khan,Young Avengers,Hero,82,85,75,85,2013,Inhuman,Alive
+Kate Bishop,Kate Bishop,Young Avengers,Hero,78,82,68,88,2012,Earth,Alive
+America Chavez,America Chavez,Young Avengers,Hero,88,80,90,95,2011,Utopian Parallel,Alive
+Wiccan,Billy Kaplan,Young Avengers,Hero,90,95,70,82,2005,Mutant,Alive
+Speed,Tommy Shepherd,Young Avengers,Hero,86,82,65,100,2005,Mutant,Alive
+Patriot,Eli Bradley,Young Avengers,Hero,76,78,80,82,2005,Earth,Alive
+Ironheart,Riri Williams,Young Avengers,Hero,88,100,72,90,2016,Earth,Alive
+Cassie Lang,Cassie Lang,Young Avengers,Hero,78,80,82,70,1979,Earth,Alive
+Stature,Cassie Lang,Young Avengers,Hero,80,82,85,72,2006,Earth,Alive
+Kid Loki,Loki,Young Avengers,Anti-Hero,84,95,75,85,2010,Asgard,Alive
+Nick Fury,Nick Fury,S.H.I.E.L.D.,Hero,78,98,65,75,1963,Earth,Alive
+Maria Hill,Maria Hill,S.H.I.E.L.D.,Hero,72,90,62,75,2005,Earth,Deceased
+Phil Coulson,Phil Coulson,S.H.I.E.L.D.,Hero,70,88,60,70,2008,Earth,Deceased
+Peggy Carter,Peggy Carter,S.H.I.E.L.D.,Hero,76,90,65,78,1966,Earth,Deceased
+Dum Dum Dugan,Timothy Dugan,S.H.I.E.L.D.,Hero,70,78,75,65,1941,Earth,Deceased
+Melinda May,Melinda May,S.H.I.E.L.D.,Hero,79,92,72,90,2008,Earth,Alive
+Quake,Daisy Johnson,S.H.I.E.L.D.,Hero,87,92,75,88,2004,Inhuman,Alive
+Mockingbird,Bobbi Morse,S.H.I.E.L.D.,Hero,77,90,70,88,1971,Earth,Alive
+Deathlok,Mike Peterson,S.H.I.E.L.D.,Hero,82,85,88,85,1974,Cyborg,Alive
+Ghost,Ava Starr,Thunderbolts,Anti-Hero,83,88,72,92,1983,Earth,Alive
+Red Guardian,Alexei Shostakov,Thunderbolts,Hero,75,72,88,70,1967,Earth,Alive
+Yelena Belova,Yelena Belova,Thunderbolts,Anti-Hero,80,88,72,92,1999,Earth,Alive
+John Walker,John Walker,Thunderbolts,Anti-Hero,82,80,88,85,1986,Earth,Alive
+US Agent,John Walker,Thunderbolts,Anti-Hero,83,82,90,88,1986,Earth,Alive
+Taskmaster,Antonia Dreykov,Thunderbolts,Anti-Hero,82,90,78,94,2021,Earth,Alive
+Winter Guard,Crimson Dynamo,Thunderbolts,Hero,78,80,90,75,1969,Earth,Alive
+Bullseye,Lester,Defenders,Villain,80,86,72,92,1976,Earth,Alive
+Typhoid Mary,Mary Walker,Defenders,Villain,82,85,75,90,1988,Mutant,Alive
+Purple Man,Zebediah Killgrave,Defenders,Villain,78,92,60,65,1964,Earth,Alive
+Mole Man,Harvey Elder,Fantastic Four,Villain,70,88,65,55,1961,Earth,Alive
+Mr. Fantastic,Reed Richards,Fantastic Four,Hero,95,100,75,70,1961,Earth,Alive
+Invisible Woman,Sue Storm,Fantastic Four,Hero,94,95,80,88,1961,Earth,Alive
+Human Torch,Johnny Storm,Fantastic Four,Hero,90,88,80,98,1961,Earth,Alive
+Thing,Ben Grimm,Fantastic Four,Hero,91,75,100,65,1961,Earth,Alive
+Silver Surfer,Norrin Radd,Cosmic,Hero,98,98,98,100,1966,Zenn-La,Alive
+Galactus,Galan,Cosmic,Villain,100,100,100,100,1966,Taa,Alive
+Watcher,Uatu,Cosmic,Neutral,99,100,85,95,1963,Unknown,Alive
+Eternity,Eternity,Cosmic,Neutral,100,100,100,100,1965,Cosmic,Alive
+Living Tribunal,Living Tribunal,Cosmic,Neutral,100,100,100,100,1976,Multiverse,Alive
+Mephisto,Mephisto,Hell,Villain,98,100,95,92,1968,Hell,Alive
+Mister Sinister,Nathaniel Essex,X-Men,Villain,91,100,78,82,1987,Mutant,Alive
+Apocalypse,En Sabah Nur,X-Men,Villain,99,98,100,95,1986,Mutant,Alive
+Onslaught,Onslaught,X-Men,Villain,100,100,100,100,1996,Psychic,Deceased
+Shadowcat,Kitty Pryde,X-Men,Hero,82,88,65,85,1980,Mutant,Alive
+Archangel,Warren Worthington,X-Men,Hero,88,85,88,98,1963,Mutant,Alive
+Havok,Alex Summers,X-Men,Hero,87,88,82,90,1969,Mutant,Alive
+Polaris,Lorna Dane,X-Men,Hero,89,90,80,88,1968,Mutant,Alive
+Sunspot,Roberto da Costa,X-Men,Hero,84,85,90,88,1982,Mutant,Alive
+Forge,Forge,X-Men,Hero,85,100,65,70,1984,Mutant,Alive
+Banshee,Sean Cassidy,X-Men,Hero,81,85,70,92,1967,Mutant,Deceased
